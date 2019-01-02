@@ -49,10 +49,14 @@ function LoadAnimationDictionary(animationD)
 end
 
 function tidning()
+    if not IsPedInAnyVehicle(PlayerPedId()) then
     TriggerEvent("tidning:animation")
     Citizen.Wait(1500)
     TriggerServerEvent("getidning")
-    
+    else
+    ESX.ShowNotification("You cannot do this in a vehicle")
+    end
+  
 end
 
 
