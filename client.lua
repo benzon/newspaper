@@ -25,7 +25,7 @@ Citizen.CreateThread(function()
 
         })
 
-        if distance ~= -1 and distance <= 1.5 then
+        if distance ~= -1 and distance <= 2 then
             if entity ~= nil then
                 local mailCoords = GetEntityCoords(entity)
                 ESX.Game.Utils.DrawText3D({ x = mailCoords.x, y = mailCoords.y, z = mailCoords.z + 1 }, '~g~[E]~s~ Grab newspaper', 0.5)
