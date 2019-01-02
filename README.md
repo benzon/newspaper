@@ -8,7 +8,7 @@ My first script, nothing special.
 
 [INSTALLATION]
 
-- Import tidning.sql
+- Import newspaper.sql into your database
 
 - Add start newspaper in your server.cfg
 
