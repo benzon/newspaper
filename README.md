@@ -1,15 +1,15 @@
 
+
 My first script, nothing special.
 
 [REQUIREMENTS]
- 
- ESX
- 
- 
+
+- ESX
+
 [INSTALLATION]
 
-Import tidning.sql
+- Import tidning.sql
 
-Add start newspaper in your server.cfg
+- Add start newspaper in your server.cfg
 
-restart your server
+- restart your server
