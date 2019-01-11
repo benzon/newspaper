@@ -14,3 +14,7 @@ My first script, nothing special.
 - Add start newspaper in your server.cfg
 
 - restart your server
+
+[CREDITS]
+
+Got inspired by https://github.com/qalle-fivem/esx-ecobottles/
